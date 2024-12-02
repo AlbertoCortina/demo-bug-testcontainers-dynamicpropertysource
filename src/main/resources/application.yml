@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    primary:
+      url: jdbc:oracle:thin:@localhost:3306/primary
+      username: primary-username
+      password: primary-password
+      driverClassName: oracle.jdbc.OracleDriver
+
+    secondary:
+      url: jdbc:oracle:thin:@localhost:3306/secondary
+      username: secondary-username
+      password: secondary-password
+      driverClassName: oracle.jdbc.OracleDriver
